@@ -1,0 +1,48 @@
+*{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: purple;
+}
+
+img{
+    height: 15rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my{
+    color:purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why{
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 30px;
+}
+
