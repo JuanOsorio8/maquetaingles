@@ -1,0 +1,34 @@
+*{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: purple;
+}
+
+img{
+    position: relative;
+    left: 25rem;
+    width: 59%;
+}
+
+footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 4.2rem;
+}
+
+.social-media{
+    font-size: 2rem;
+}
+

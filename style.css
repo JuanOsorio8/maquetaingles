@@ -9,7 +9,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: gray;
+    flex-direction: column;
 }
 
 .title{
@@ -23,15 +24,26 @@ img{
     margin-bottom: 10px;
 }
 
+.conection a{
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: purple;
+}
+.conection{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
 .my{
-    color:purple;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .why{
-    color: purple;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +54,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-    height: 30px;
+    background-color: gray;
+    height: 4.2rem;
 }
 
+.social-media{
+    font-size: 2rem;
+}
