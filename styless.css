@@ -4,3 +4,30 @@
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+header section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: purple;
+}
+
+
+video{
+    position: relative;
+    left: 42rem;
+}
+
+footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 4.2rem;
+}
+
+.social-media{
+    font-size: 2rem;
+}
